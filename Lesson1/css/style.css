@@ -1,0 +1,28 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2, h1, p, ul {
+    background: #fec356;
+    padding: 10px;
+    color:#808080;
+}
+
+p, ul {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:#808080
+}
+
+img {
+    width: 300px;
+}
+
