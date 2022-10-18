@@ -1,0 +1,36 @@
+.allcards {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.cards {
+    width: 250px;
+    height: 270px;
+    border: 1px solid #000000;
+}
+.cards-header {
+    font-size: 20px;
+    margin: 70px 0 30px 0;
+    text-align: center;
+}
+.cards-text {
+    color: rgba(0,0,0,0.5);
+    font-size: 17px;
+    padding: 0 20px;
+    text-align: center;
+}
+.cards-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.lm-button {
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 40px;
+    font-size: 16px;
+}
