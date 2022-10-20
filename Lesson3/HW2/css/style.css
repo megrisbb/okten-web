@@ -1,0 +1,82 @@
+/*Header*/
+
+.header {
+    background-color: #ced8e1;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-block {
+    background-color: #0f2a3d;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 0 0 60px;
+}
+
+.header-search {
+    font-size: 20px;
+    margin: 20px 20px 0 0;
+}
+
+.header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin: 20px 80px 0 0;
+}
+
+.header-burger:before,
+.header-burger:after {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+
+.header-burger span {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+}
+
+.header-burger:before {
+    top: 0;
+}
+
+.header-burger:after {
+    bottom: 0;
+}
+
+/*main*/
+.main-block {
+    height: 500px;
+    background-color: #0f2a3d;
+}
+
+.main-blocks {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 40px;
+    left: 25%;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #6964e2;
+    border-radius: 10px;
+}
