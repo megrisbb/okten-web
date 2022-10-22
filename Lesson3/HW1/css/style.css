@@ -1,13 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+body {
+    background-color: #5683cb;
+}
 .container {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
 }
 .cards {
-    margin: 100px;
+    margin-top: 25%;
     display: flex;
     justify-content: space-between;
 }
 .card1, .card2, .card3 {
+    background-color: #dab6cb;
     width: 260px;
     height: 300px;
     border: 1px solid #000000;
@@ -17,31 +23,40 @@
 }
 
 .cards-logo {
+
     font-size: 25px;
     border: 1px solid #000000;
     border-radius: 50%;
     padding: 25px;
-    background-color: #ffffff;
+    background-color: #dab6cb;
     position: relative;
     top: -15%;
+}
+.fa-brands {
+    color: #5683cb;
 }
 
 .cards-header {
     font-size: 25px;
+    font-family: 'Tenor Sans', sans-serif;
 }
 .cards-text {
     font-size: 16px;
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 30px;
     height: 90px;
     display: flex;
     align-items: center;
 }
 .cards-button {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .cards-button a {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 15px;
     color: #000000;
     border: 1px solid #000000;
-    padding: 15px 45px;
+    border-radius: 10px;
+    padding: 10px 35px;
 }
+
