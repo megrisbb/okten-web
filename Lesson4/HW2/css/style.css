@@ -1,13 +1,11 @@
-.allblocks {
-    width: 100%;
-}
+
 .blockA {
-    height: 300px;
+    height: 215px;
     background-color: #bcbbf1;
 }
 .blockB {
     margin: 20px 0 0 20px;
-    height: 300px;
+    height: 215px;
     background-color: grey;
 }
 .main {
@@ -21,18 +19,18 @@
     justify-content: space-between;
 }
 .bottom-block {
-    width: 40%;
-    height: 300px;
+    width: 25%;
+    height: 215px;
     background-color: #ef9999;
     margin: 20px 0 20px 20px;
 }
 .blockF {
     width: 20%;
-    height: 620px;
-    background-color: #54546e;
+    height: 450px;
+    background-color: #7a7aad;
 }
 .blockA, .blockF {
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 0 20px;
 }
 .blockA, .blockB, .blockF, .bottom-block {
     border-radius: 10px;
@@ -46,7 +44,7 @@
         flex-wrap: wrap;
     }
     .blockF, .blockA {
-        height: 300px;
+        height: 200px;
     }
     .blockF {
         width: 100%;
@@ -64,7 +62,26 @@
 
     }
     .bottom-block {
-        width: 25%;
+        width: 20%;
         margin: 40px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blockF, .blockA {
+        height: 100px;
+    }
+    .blockB {
+        height: 300px;
+    }
+    .bottom-block {
+        width: 15%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bottom-block {
+        height: 50px;
     }
 }
