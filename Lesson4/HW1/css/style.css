@@ -1,7 +1,7 @@
 
 .blockA {
     margin: 10px;
-    height: 200px;
+    height: 30vh;
     background-color: #dab6cb;
     border-radius: 10px;
 }
@@ -9,15 +9,15 @@
     display: flex;
 }
 .blockB {
-    width: 80%;
-    height: 480px;
+    width: 80vw;
+    height: 65vh;
     background-color: #6c93bd;
     border-radius: 10px;
     margin-left: 10px;
 }
 .blockC {
-    width: 20%;
-    height: 480px;
+    width: 20vw;
+    height: 65vh;
     background-color: #6c93bd;
     margin: 0 10px;
     border-radius: 10px;

@@ -1,0 +1,48 @@
+
+.container {
+    background-color: #5683cb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-blocks {
+    width: 150px;
+    height: 150px;
+    background-color: #ef9999;
+    border: 1px solid black;
+}
+
+.second-blocks {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 10%;
+}
+.two-blocks {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #fec356;
+    border: 1px solid black;
+}
+
+.two-blocks:first-child {
+    left: 4%;
+}
+.two-blocks:last-child {
+    right: 4%;
+}

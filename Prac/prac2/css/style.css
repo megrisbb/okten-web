@@ -1,0 +1,158 @@
+.container {
+    width: 100%;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    background-color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 20%;
+    height: 100px;
+}
+
+.header__header {
+    width: 78%;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-blocks {
+    width: 20%;
+    margin-top: 25px;
+}
+
+.nav-bar {
+    height: 700px;
+}
+
+.store {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.tools {
+    height: 200px;
+    margin-top: 25px;
+}
+
+.right-blocks {
+    width: 78%;
+    margin-top: 25px;
+}
+
+.section__up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 60%;
+    height: 300px;
+}
+
+.ad {
+    width: 38%;
+    height: 300px;
+}
+
+.section__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.types {
+    width: 60%;
+    height: 720px;
+}
+
+.products {
+    width: 38%;
+    height: 720px;
+}
+
+
+.footer {
+    height: 300px;
+    margin-top: 25px;
+}
+
+.store__second, .tools__second {
+    display: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 1000px) {
+    .header__header {
+        width: 79.5%;
+    }
+
+    .main, .section__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-blocks,
+    .right-blocks,
+    .section__bottom,
+    .products,
+    .footer,
+    .store__second,
+    .tools__second {
+        margin-top: 10px;
+    }
+
+    .nav-bar {
+        width: 100vw;
+        height: 200px;
+    }
+
+    .store, .tools {
+        display: none;
+    }
+
+    .section__up, .types, .products {
+        width: 100vw;
+    }
+
+    .products {
+        height: 400px;
+    }
+
+    .store__second, .tools__second {
+        display: block;
+    }
+
+    .store__second {
+        width: 50%;
+        height: 300px;
+        display: flex;
+    }
+
+    .tools__second {
+        width: 48%;
+        height: 300px;
+        display: flex;
+    }
+
+    .store-tools {
+        display: flex;
+        justify-content: space-between;
+    }
+}
