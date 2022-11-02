@@ -39,11 +39,11 @@ console.log(typeof b)
 let c = true;
 console.log(typeof c)
 
-myName = prompt('Bohdan');
+let myName = prompt('Your name');
 console.log(myName)
-myMiddleName = prompt('Myronovich');
+let myMiddleName = prompt('Your middle Name');
 console.log(myMiddleName)
-myAge = prompt(25);
+let myAge = prompt('Your age');
 console.log(myAge)
 
 
