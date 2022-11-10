@@ -41,13 +41,17 @@ while ( a < 20) {
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
-// for (let list = 0; list < listOfItems.length; list++) {
-//     document.write(`<ul><li>${list} </li></ul>`);
-// } Чому тут не хоче виводити?
-
-for (let list of listOfItems) {
-    document.write(`<ul><li>${list} </li></ul>`);
+document.write('<ul>');
+for (let list = 0; list < listOfItems.length; list++) {
+    document.write(`<li>${listOfItems[list]}</li>`);
 }
+document.write('</ul>');
+
+// document.write('<ul>');
+// for (const list of listOfItems) {
+//     document.write(`<li>${list} </li>`);
+// }
+// document.write('</ul>');
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію Великими літерами прописанні властивості об'єкту
