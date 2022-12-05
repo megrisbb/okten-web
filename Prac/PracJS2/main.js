@@ -86,14 +86,14 @@
 
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
-let array = [];
-function arrayFilling(limit) {
-    for (let i = 0; i < limit; i++) {
-       array[i] = Math.round(Math.random() * 100)
-    }
-    console.log(array);
-}
-arrayFilling(10)
+// let array = [];
+// function arrayFilling(limit) {
+//     for (let i = 0; i < limit; i++) {
+//        array[i] = Math.round(Math.random() * 100)
+//     }
+//     console.log(array);
+// }
+// arrayFilling(10)
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 //
 //
