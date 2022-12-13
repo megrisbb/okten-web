@@ -122,21 +122,21 @@
 
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
-// class Car {
-//     constructor(model, manufacturer, year, maxSpeed, engineCapacity) {
-//         this.model = model;
-//         this.manufacturer = manufacturer;
-//         this.year = year;
-//         this.maxSpeed = maxSpeed;
-//         this.engineCapacity = engineCapacity;
-//     }
+class Car {
+    constructor(model, manufacturer, year, maxSpeed, engineCapacity) {
+        this.model = model;
+        this.manufacturer = manufacturer;
+        this.year = year;
+        this.maxSpeed = maxSpeed;
+        this.engineCapacity = engineCapacity;
+    }
+
+    engineCapacity;
+
+}
 //
-//     engineCapacity;
-//
-// }
-//
-// const ourCars = new Car('X5', 'BMW', 2020, 243 , '3.0L',)
-// console.log(ourCars)
+const ourCars = new Car('X5', 'BMW', 2020, 243 , '3.0L',)
+console.log(ourCars)
 
 
 
@@ -149,7 +149,10 @@
 
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 
-
+Car.prototype.info = function () {
+    return Car.prototype.
+}
+console.log(ourCars.info())
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // Car.prototype.increaseMaxSpeed = function (newSpeed) {
 //     this.maxSpeed = this.maxSpeed + newSpeed;
