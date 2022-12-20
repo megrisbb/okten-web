@@ -1,0 +1,136 @@
+/*Script.js*/
+/*Start*/
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.users {
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #b2a4bd;
+    padding-bottom: 20px;
+}
+
+.users > p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.users > a {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #d5b3b3;
+    color: black;
+    text-decoration: none;
+}
+
+/*Script.js*/
+/*End*/
+
+/*User-Details.js*/
+/*Start*/
+
+.user-info {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user-info > div {
+    width: 25%;
+}
+
+.post-button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-button > button {
+    width: 90%;
+    padding: 15px 0;
+    background-color: #fec356;
+    font-size: 20px;
+}
+
+.main-post__title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto 20px;
+}
+.post-title {
+    background-color: #fec356;
+    border: 1px black solid;
+    width: 17%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.post-title > a {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: #f8c56d;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+
+/*User-Details.js*/
+/*End*/
+
+/*Post-Details.js*/
+/*Start*/
+
+.all-post {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.all-post > div {
+    width: 80%;
+    padding: 5px 0;
+}
+
+.all-comments {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.all-comments > div {
+    margin-top: 20px;
+    background-color: #05a6a6;
+    border: 1px black solid;
+    width: 20%;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}
