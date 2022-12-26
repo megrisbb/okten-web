@@ -36,7 +36,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                 .then(data => {
                     for (const datum of data) {
                         let btnA = document.createElement('a')
-                        btnA.innerText = 'See More'
+                        btnA.innerText = 'See more'
                         btnA.href = `post-details.html?id=${id}`
 
                         let titleDiv = document.createElement('div')
